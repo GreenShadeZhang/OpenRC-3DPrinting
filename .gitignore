@@ -3,3 +3,6 @@
 ################################################################################
 
 /ControlCode/OpenRC.WinUI/OpenRC.WinUI.Desktop.GamepadController/OpenRC.WinUI.Desktop.GamepadController/bin/x64/Debug/net5.0-windows10.0.19041.0
+/ControlCode/OpenRC.WinUI/OpenRC.WinUI.Desktop.GamepadController/OpenRC.WinUI.Desktop.GamepadController/obj
+/ControlCode/OpenRC.WinUI/OpenRC.WinUI.Desktop.GamepadController/OpenRC.WinUI.Desktop.GamepadController (Package)/bin
+/ControlCode/OpenRC.WinUI/OpenRC.WinUI.Desktop.GamepadController/OpenRC.WinUI.Desktop.GamepadController (Package)/obj

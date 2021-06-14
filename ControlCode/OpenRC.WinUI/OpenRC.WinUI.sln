@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31320.298
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "OpenRC.WinUI.Desktop.GamepadController (Package)", "OpenRC.WinUI.Desktop.GamepadController\OpenRC.WinUI.Desktop.GamepadController (Package)\OpenRC.WinUI.Desktop.GamepadController (Package).wapproj", "{96812093-F889-482C-B546-9238CDC6F790}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRC.WinUI.Desktop.GamepadController", "OpenRC.WinUI.Desktop.GamepadController\OpenRC.WinUI.Desktop.GamepadController\OpenRC.WinUI.Desktop.GamepadController.csproj", "{5FF74AAF-A858-4DE0-876B-781B1E26CC47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|arm64 = Debug|arm64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|arm64 = Release|arm64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96812093-F889-482C-B546-9238CDC6F790}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{96812093-F889-482C-B546-9238CDC6F790}.Debug|arm64.ActiveCfg = Debug|arm64
+		{96812093-F889-482C-B546-9238CDC6F790}.Debug|arm64.Build.0 = Debug|arm64
+		{96812093-F889-482C-B546-9238CDC6F790}.Debug|arm64.Deploy.0 = Debug|arm64
+		{96812093-F889-482C-B546-9238CDC6F790}.Debug|x64.ActiveCfg = Debug|x64
+		{96812093-F889-482C-B546-9238CDC6F790}.Debug|x64.Build.0 = Debug|x64
+		{96812093-F889-482C-B546-9238CDC6F790}.Debug|x64.Deploy.0 = Debug|x64
+		{96812093-F889-482C-B546-9238CDC6F790}.Debug|x86.ActiveCfg = Debug|x86
+		{96812093-F889-482C-B546-9238CDC6F790}.Debug|x86.Build.0 = Debug|x86
+		{96812093-F889-482C-B546-9238CDC6F790}.Debug|x86.Deploy.0 = Debug|x86
+		{96812093-F889-482C-B546-9238CDC6F790}.Release|Any CPU.ActiveCfg = Release|x86
+		{96812093-F889-482C-B546-9238CDC6F790}.Release|arm64.ActiveCfg = Release|arm64
+		{96812093-F889-482C-B546-9238CDC6F790}.Release|arm64.Build.0 = Release|arm64
+		{96812093-F889-482C-B546-9238CDC6F790}.Release|arm64.Deploy.0 = Release|arm64
+		{96812093-F889-482C-B546-9238CDC6F790}.Release|x64.ActiveCfg = Release|x64
+		{96812093-F889-482C-B546-9238CDC6F790}.Release|x64.Build.0 = Release|x64
+		{96812093-F889-482C-B546-9238CDC6F790}.Release|x64.Deploy.0 = Release|x64
+		{96812093-F889-482C-B546-9238CDC6F790}.Release|x86.ActiveCfg = Release|x86
+		{96812093-F889-482C-B546-9238CDC6F790}.Release|x86.Build.0 = Release|x86
+		{96812093-F889-482C-B546-9238CDC6F790}.Release|x86.Deploy.0 = Release|x86
+		{5FF74AAF-A858-4DE0-876B-781B1E26CC47}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{5FF74AAF-A858-4DE0-876B-781B1E26CC47}.Debug|arm64.ActiveCfg = Debug|arm64
+		{5FF74AAF-A858-4DE0-876B-781B1E26CC47}.Debug|arm64.Build.0 = Debug|arm64
+		{5FF74AAF-A858-4DE0-876B-781B1E26CC47}.Debug|x64.ActiveCfg = Debug|x64
+		{5FF74AAF-A858-4DE0-876B-781B1E26CC47}.Debug|x64.Build.0 = Debug|x64
+		{5FF74AAF-A858-4DE0-876B-781B1E26CC47}.Debug|x86.ActiveCfg = Debug|x86
+		{5FF74AAF-A858-4DE0-876B-781B1E26CC47}.Debug|x86.Build.0 = Debug|x86
+		{5FF74AAF-A858-4DE0-876B-781B1E26CC47}.Release|Any CPU.ActiveCfg = Release|x86
+		{5FF74AAF-A858-4DE0-876B-781B1E26CC47}.Release|arm64.ActiveCfg = Release|arm64
+		{5FF74AAF-A858-4DE0-876B-781B1E26CC47}.Release|arm64.Build.0 = Release|arm64
+		{5FF74AAF-A858-4DE0-876B-781B1E26CC47}.Release|x64.ActiveCfg = Release|x64
+		{5FF74AAF-A858-4DE0-876B-781B1E26CC47}.Release|x64.Build.0 = Release|x64
+		{5FF74AAF-A858-4DE0-876B-781B1E26CC47}.Release|x86.ActiveCfg = Release|x86
+		{5FF74AAF-A858-4DE0-876B-781B1E26CC47}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E389E46-B7F0-441F-AF85-C44B0A8AD4A3}
+	EndGlobalSection
+EndGlobal
