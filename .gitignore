@@ -1,0 +1,5 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/ControlCode/OpenRC.WinUI/OpenRC.WinUI.Desktop.GamepadController/OpenRC.WinUI.Desktop.GamepadController/bin/x64/Debug/net5.0-windows10.0.19041.0
