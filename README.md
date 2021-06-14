@@ -9,4 +9,7 @@
 
 # ControlCode 
 
-模型车的控制代码，包含WinUI编写的上位机软件和Arduino编写的下位机处理程序。
+### 模型车的控制代码，包含WinUI编写的上位机软件和Arduino编写的下位机处理程序。
+
+# openrc_truggy
+### 车子的3D模型用win10自带的3D查看器就能打开。
