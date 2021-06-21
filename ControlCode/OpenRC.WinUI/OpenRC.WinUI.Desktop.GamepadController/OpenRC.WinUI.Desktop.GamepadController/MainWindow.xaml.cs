@@ -1,4 +1,5 @@
-﻿using Microsoft.UI.Xaml;
+﻿using Microsoft.UI.Dispatching;
+using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using System;
 using System.IO.Ports;
@@ -123,11 +124,11 @@ namespace OpenRC.WinUI.Desktop.GamepadController
 
                 if (reading.LeftThumbstickX < 0 && reading.LeftThumbstickX >= -1)
                 {
-                    duoji = 80 * System.Math.Abs(reading.LeftThumbstickX) + 90;
+                    duoji = 50 * System.Math.Abs(reading.LeftThumbstickX) + 90;
                 }
                 else if (reading.LeftThumbstickX > 0 && reading.LeftThumbstickX <= 1)
                 {
-                    duoji = 90 - 70 * reading.LeftThumbstickX;
+                    duoji = 90 - 40 * reading.LeftThumbstickX;
                 }
 
                 else
@@ -161,7 +162,7 @@ namespace OpenRC.WinUI.Desktop.GamepadController
 
         private void Log(String txt)
         {
-            this.DispatcherQueue.TryEnqueue(Microsoft.System.DispatcherQueuePriority.Normal,
+            DispatcherQueue.TryEnqueue(DispatcherQueuePriority.Normal,
             () =>
             {
                 txtEvents.Text = DateTime.Now.ToString("hh:mm:ss.fff ") + txt + "\n" + txtEvents.Text;

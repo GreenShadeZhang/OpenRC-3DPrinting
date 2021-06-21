@@ -13,9 +13,9 @@
     <FrameworkReference Update="Microsoft.Windows.SDK.NET.Ref" TargetingPackVersion="10.0.18362.16" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.ProjectReunion" Version="0.5.7" />
-    <PackageReference Include="Microsoft.ProjectReunion.Foundation" Version="0.5.7" />
-    <PackageReference Include="Microsoft.ProjectReunion.WinUI" Version="0.5.7" />
+    <PackageReference Include="Microsoft.ProjectReunion" Version="0.8.0-rc" />
+    <PackageReference Include="Microsoft.ProjectReunion.Foundation" Version="0.8.0-rc" />
+    <PackageReference Include="Microsoft.ProjectReunion.WinUI" Version="0.8.0-rc" />
     <PackageReference Include="System.IO.Ports" Version="5.0.1" />
     <Manifest Include="$(ApplicationManifest)" />
   </ItemGroup>

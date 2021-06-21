@@ -17,7 +17,7 @@
             HorizontalAlignment="Center"
             Orientation="Horizontal">
             <TextBlock VerticalAlignment="Center" Text="请选择连接的设备： " />
-            <ComboBox x:Name="PortList" SelectionChanged="PortList_SelectionChanged" />
+            <ComboBox x:Name="PortList" SelectionChanged="PortList_SelectionChanged" Margin="20" />
             <ToggleButton
                 x:Name="ConnectBtn"
                 Checked="ConnectBtn_Checked"
