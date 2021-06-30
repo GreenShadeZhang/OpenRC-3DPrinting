@@ -30,7 +30,7 @@ namespace OpenRC.WinUI.Desktop.GamepadController
 
             dispatcherTimer = new DispatcherTimer();
 
-            dispatcherTimer.Interval = new TimeSpan(500);
+            dispatcherTimer.Interval = new TimeSpan(100);
 
             dispatcherTimer.Tick += dispatcherTimer_Tick;
 
@@ -128,7 +128,7 @@ namespace OpenRC.WinUI.Desktop.GamepadController
                 }
                 else if (reading.LeftThumbstickX > 0 && reading.LeftThumbstickX <= 1)
                 {
-                    duoji = 90 - 40 * reading.LeftThumbstickX;
+                    duoji = 90 - 30 * reading.LeftThumbstickX;
                 }
 
                 else
@@ -145,9 +145,29 @@ namespace OpenRC.WinUI.Desktop.GamepadController
 
                 int a = (int)(((1600 - 1350) * reading.RightTrigger) + 1350);
 
+                int b = (int)(1350-((1350-700) * reading.LeftTrigger));
+
                 int duo = (int)duoji;
 
                 MyPort.WriteLine(String.Format("{0} {1}", duo, a));
+                //if (a > 1350)
+                //{
+                    
+                //}
+                //else
+                //{
+                //    //for (int i = 1350; i>800; i = i-2)
+                //    //{
+                //    //    MyPort.WriteLine(String.Format("{0} {1}", duo, i));
+                //    //}
+
+                //    //for (int i = 800; i < 1350; i = i +2)
+                //    //{
+                //    //    MyPort.WriteLine(String.Format("{0} {1}", duo, i));
+                //    //}
+                //    MyPort.WriteLine(String.Format("{0} {1}", duo, b));
+                //}
+                
             }
 
         }
