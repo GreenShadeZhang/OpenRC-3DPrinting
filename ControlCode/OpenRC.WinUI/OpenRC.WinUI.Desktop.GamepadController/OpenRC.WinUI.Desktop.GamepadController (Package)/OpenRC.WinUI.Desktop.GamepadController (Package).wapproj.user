@@ -2,7 +2,29 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <DebuggerFlavor>AppHostRemoteDebugger</DebuggerFlavor>
-    <RemoteDebugMachine>192.168.1.110</RemoteDebugMachine>
+    <RemoteDebugMachine>192.168.1.112</RemoteDebugMachine>
+    <RemoteDebugEnabled>True</RemoteDebugEnabled>
     <AuthenticationMode>Universal</AuthenticationMode>
+  </PropertyGroup>
+  <PropertyGroup>
+    <UapAppxPackageBuildMode>SideloadOnly</UapAppxPackageBuildMode>
+    <AppxShowAllApps>False</AppxShowAllApps>
+    <AppxBuildConfigurationSelection>x64</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <DebuggerFlavor>AppHostRemoteDebugger</DebuggerFlavor>
+    <RemoteDebugEnabled>True</RemoteDebugEnabled>
+    <AuthenticationMode>Universal</AuthenticationMode>
+    <RemoteDebugMachine>192.168.1.112</RemoteDebugMachine>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <DebuggerFlavor>AppHostLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <DebuggerFlavor>AppHostRemoteDebugger</DebuggerFlavor>
+    <RemoteDebugEnabled>True</RemoteDebugEnabled>
+    <AuthenticationMode>Universal</AuthenticationMode>
+    <RemoteDebugMachine>192.168.1.112</RemoteDebugMachine>
   </PropertyGroup>
 </Project>

@@ -7,9 +7,9 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="74f3e6d1-4018-410d-8bda-14f9ac5b3d77"
-    Publisher="CN=gilzh"
-    Version="1.0.0.0" />
+    Name="48d396b2-194f-40ea-9299-e80c13e4a1a8"
+    Publisher="CN=829B8DD1-2BF4-465F-8663-BB54D1109ED6"
+    Version="1.0.3.0" />
 
   <Properties>
     <DisplayName>OpenRC.WinUI.Desktop.GamepadController (Package)</DisplayName>
